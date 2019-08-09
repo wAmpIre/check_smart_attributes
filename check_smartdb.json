@@ -676,7 +676,7 @@
 			"Perfs" : ["190","177","180","241"]
 		},
 		"Samsung 840 EVO" : { # Same as Samsung 850PRO
-			"Device" : ["Samsung SSD 840 EVO 1TB"],
+			"Device" : ["Samsung SSD 840 EVO 1TB", "Samsung SSD 840 EVO 500GB", "Samsung SSD 840 EVO 250GB", "Samsung SSD 840 EVO 120GB"],
 			"ID#" : {
 				"5" : "RAW_VALUE", # Re-allocated Sector Count
 				"9" : "RAW_VALUE", # Power On Hours Count
