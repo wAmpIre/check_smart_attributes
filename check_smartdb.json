@@ -739,6 +739,42 @@
 			},
 			"Perfs" : ["5","177","179","190","241"]
 		},
+		"Samsung/OEM PM871" : {
+			"Device" : ["SAMSUNG MZ7LN256HCHP-000L7"],
+			"ID#" : {
+				"5" : "RAW_VALUE", # Re-allocated Sector Count
+				"9" : "RAW_VALUE", # Power On Hours Count
+				"12" : "RAW_VALUE", # Power Cycle Count
+				"170" : "VALUE", # Unused Reserved Block Count (Chip)
+				"171" : "RAW_VALUE", # Program Fail Count (Total)
+				"172" : "RAW_VALUE", # Erase Fail Count (Total)
+				"173" : "VALUE", # Wear Leveling Count
+				"174" : "RAW_VALUE", # Unexpected Power Loss Count
+				"178" : "VALUE", # Used Reserved Block Count (Total)
+				"180" : "VALUE", # Unused Reserved Block Count (Total)
+				"184" : "VALUE", # End to End Error Data Path Error Count
+				"187" : "RAW_VALUE", # Uncorrectrable Error Count
+				"194" : "RAW_VALUE", # Temperature Celcius
+				"199" : "RAW_VALUE", # CRC Error Count
+				"233" : "VALUE", # Media Wearout Indicator
+				"241" : "RAW_VALUE", # Total LBA Written
+				"242" : "RAW_VALUE", # Total LBA Read
+				"249" : "RAW_VALUE" # Unknown_Samsung_Attr
+			},
+			"Threshs" : {
+				"5" : ["10","20"],
+				"170" : ["20:","10:"],
+				"171" : ["0","10"],
+				"172" : ["0","10"],
+				"173" : ["11:","6:"],
+				"178" : ["20:","10:"],
+				"184" : ["98:","97:"],
+				"187" : ["0","10"],
+				"194" : ["60","70"],
+				"199" : ["0","10"]
+			},
+			"Perfs" : ["173","180","194","233","241","242"]
+		},
                 "Crucial M500" : {
                         "Device" : ["Crucial_CT120M500SSD1","Crucial_CT240M500SSD1","Crucial_CT480M500SSD1","Crucial_CT960M500SSD1"],
                         "ID#" : {
