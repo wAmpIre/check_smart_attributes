@@ -92,6 +92,30 @@
 			},
 			"Perfs" : ["233","241","242"]
 		},
+		"Intel 330" : {
+			"Device" : ["Intel 330/335 Series SSDs","INTEL SSDSC2CT180A3"],
+			"ID#" : {
+				"5" : "RAW_VALUE", # Re-allocated Sector Count
+				"9" : "RAW_VALUE", # Power-On Hours Count
+				"12" : "RAW_VALUE", # Power Cycle Count
+				"181" : "VALUE", # Program Fail Count
+				"182" : "VALUE", # Erase Fail Count
+				"192" : "RAW_VALUE", # Power-Off Retract Count (Unsafe Shutdown Count)
+				"232" : "VALUE", # Available Reserved Space
+				"233" : "VALUE", # Media Wearout Indicator
+				"241" : "RAW_VALUE", # Host Writes 32MiB -- Total LBAs Written (32MiB)
+				"242" : "RAW_VALUE", # Host Reads 32MiB -- Total LBAs Read (32MiB)
+				"249" : "RAW_VALUE" # NAND Writes 1GiB
+			},
+			"Threshs" : {
+				"5" : ["20","40"],
+				"181" : ["5","10"],
+				"182" : ["5","10"],
+				"232" : ["16:","11:"],
+				"233" : ["16:","6:"],
+			},
+			"Perfs" : ["233","241","242","249"]
+		},
 		"Intel 520" : {
 			"Device" : ["Intel 520 Series SSDs","INTEL SSDSC2CW240A3"],
 			"ID#" : {
